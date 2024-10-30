@@ -1,0 +1,300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kramer\n"
+"POT-Creation-Date: 2005-10-07 18:03-0400\n"
+"Last-Translator: Mark Jaquith <mark.i18n@txfx.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: kramer.php:104
+#, php-format
+msgid "No post ID found for %s"
+msgstr ""
+
+#: kramer.php:106
+#, php-format
+msgid "Post ID: %s"
+msgstr ""
+
+#: kramer.php:109
+#, php-format
+msgid "ERROR: %1$s was requested, but %2$s was fetched."
+msgstr ""
+
+#: kramer.php:114
+msgid "Pings have been disabled for this entry"
+msgstr ""
+
+#: kramer.php:126
+msgid "No last synch value found, creating now"
+msgstr ""
+
+#: kramer.php:132
+#, php-format
+msgid "Post Synch Value: %1$s Current Time: %2$s Difference: %3$s"
+msgstr ""
+
+#: kramer.php:138
+msgid "Synch triggered by cache expiration"
+msgstr ""
+
+#: kramer.php:140
+msgid "Cache is up to date for this entry"
+msgstr ""
+
+#: kramer.php:145
+msgid "Synch manually requested"
+msgstr ""
+
+#: kramer.php:149
+#, php-format
+msgid "Synching post id # %1$s (%2$s) from Technorati"
+msgstr ""
+
+#: kramer.php:161
+msgid "Empty API key, add one in the admin panel"
+msgstr ""
+
+#: kramer.php:202
+#, php-format
+msgid "XML error: %1$s at line %2$s"
+msgstr ""
+
+#: kramer.php:254
+msgid "ERROR: "
+msgstr ""
+
+#: kramer.php:300
+#, php-format
+msgid "URL: %s Domain: %s"
+msgstr ""
+
+#: kramer.php:326
+#, php-format
+msgid "Post from %1$s inserted, linking from %2$s"
+msgstr ""
+
+#: kramer.php:332
+#, php-format
+msgid "Post from %s already existed or was from this weblog"
+msgstr ""
+
+#: kramer.php:339
+msgid "KRAMER DEBUG INFO"
+msgstr ""
+
+#: kramer.php:358
+#, php-format
+msgid "%s comments deleted"
+msgstr ""
+
+#: kramer.php:360
+msgid "No comments deleted"
+msgstr ""
+
+#: kramer.php:445
+msgid "Kramer Options"
+msgstr ""
+
+#: kramer.php:452
+msgid "API Key"
+msgstr ""
+
+#: kramer.php:456
+msgid ""
+"Kramer requires a valid Technorati API key to access inbound link "
+"information for your weblog via their API.\n"
+"\t\t\t\tTo get a key, register as a user at <a href=\"http://www.technorati."
+"com\">Technorati</a> and then go to\n"
+"\t\t\t\t<a href=\"http://www.technorati.com/developers/apikey.html\">http://"
+"www.technorati.com/developers/apikey.html</a> to request\n"
+"\t\t\t\tyour key."
+msgstr ""
+
+#: kramer.php:461
+msgid ""
+"Copy your key below, and update the options. Please note that there is a 500 "
+"query per day limit with each API key,\n"
+"\t\t\t\tand you should take that into consideration when setting your cache "
+"settings."
+msgstr ""
+
+#: kramer.php:467
+msgid "API Key:"
+msgstr ""
+
+#: kramer.php:477
+msgid "Other options"
+msgstr ""
+
+#: kramer.php:480
+msgid "Miscellaneous settings."
+msgstr ""
+
+#: kramer.php:484
+msgid "Email notification:"
+msgstr ""
+
+#: kramer.php:486 kramer.php:493
+msgid "Yes"
+msgstr ""
+
+#: kramer.php:487 kramer.php:494
+msgid "No"
+msgstr ""
+
+#: kramer.php:491
+msgid "Auto Ref Pingback:"
+msgstr ""
+
+#: kramer.php:500
+msgid ""
+"Set the cache options, which will also apply to the front page inbound link "
+"list. Only use short time periods for testing since Technorati currently has "
+"a hard limit of 500 requests per day."
+msgstr ""
+
+#: kramer.php:504
+msgid ""
+"<i>Expire cache now</i> will expire all caches and will force Kramer to re-"
+"synch at the next page request. <i>Delete all Technorati comments</i> will "
+"remove all comments added by Kramer. They will be re-added again from "
+"Technorati dynamically as the posts are visited."
+msgstr ""
+
+#: kramer.php:509
+msgid "Cache expiration:"
+msgstr ""
+
+#: kramer.php:512
+msgid "1 minute"
+msgstr ""
+
+#: kramer.php:513
+msgid "30 minutes"
+msgstr ""
+
+#: kramer.php:514
+msgid "1 hour"
+msgstr ""
+
+#: kramer.php:515
+msgid "3 hours"
+msgstr ""
+
+#: kramer.php:516
+msgid "6 hours"
+msgstr ""
+
+#: kramer.php:517
+msgid "12 hours"
+msgstr ""
+
+#: kramer.php:518
+msgid "24 hours"
+msgstr ""
+
+#: kramer.php:526
+msgid "Expire cache now"
+msgstr ""
+
+#: kramer.php:532
+msgid "Comments:"
+msgstr ""
+
+#: kramer.php:535
+msgid "Delete all Technorati comments"
+msgstr ""
+
+#: kramer.php:535
+msgid "Are you sure you want to delete all Technorati comments?"
+msgstr ""
+
+#: kramer.php:541
+#, php-format
+msgid "This version of Kramer is %1$s and the latest version is %2$s %3$s"
+msgstr ""
+
+#: kramer.php:549
+msgid "Sidebar options"
+msgstr ""
+
+#: kramer.php:553
+msgid ""
+"To include a list of inbound links on your main weblog page, include the "
+"function <code>kramer_inbound();</code> where you want\n"
+"\t\t\t\tit to be displayed in your template. This function requires no "
+"paramaters as the options are set here."
+msgstr ""
+
+#: kramer.php:558
+msgid "Number of Entries:"
+msgstr ""
+
+#: kramer.php:561
+msgid "Display the last x number of entries on the list. Default is 10"
+msgstr ""
+
+#: kramer.php:566
+msgid "Name of container:"
+msgstr ""
+
+#: kramer.php:569
+msgid ""
+"Name of list container, use this to set a style in your stylesheet. Default "
+"is kramer_inbound"
+msgstr ""
+
+#: kramer.php:574
+msgid "Insert before list:"
+msgstr ""
+
+#: kramer.php:577
+msgid ""
+"HTML element to include before the list block. Default is &lt;ul&gt; "
+"(unordered list)"
+msgstr ""
+
+#: kramer.php:582
+msgid "Insert after list:"
+msgstr ""
+
+#: kramer.php:585
+msgid ""
+"HTML element to include after the list block. Default is &lt;/ul&gt; (end of "
+"unordered list)"
+msgstr ""
+
+#: kramer.php:590
+msgid "Insert before list item:"
+msgstr ""
+
+#: kramer.php:593
+msgid ""
+"HTML element to place before each list item. Default is &lt;li&gt; (list "
+"item)"
+msgstr ""
+
+#: kramer.php:598
+msgid "Insert after list item:"
+msgstr ""
+
+#: kramer.php:601
+msgid ""
+"HTML element to place after each list item. Default is &lt;li&gt; (end of "
+"list item)"
+msgstr ""
+
+#: kramer.php:609
+msgid "Update Options &raquo;"
+msgstr ""
+
+#: kramer.php:621
+#, php-format
+msgid "flushed %s items down"
+msgstr ""
+
+#: kramer.php:1083
+msgid "Kramer"
+msgstr ""
